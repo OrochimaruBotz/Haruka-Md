@@ -494,8 +494,7 @@ _Ada Bug? Ketik ${prefix}report Bug mu_
  • ${prefix}metalb2
  • ${prefix}metalg
  • ${prefix}metalg${petik}
-
-   Powered By Humanz😈`
+`
 }
 
 exports.donate = (pushname, ownerNumber) => {
