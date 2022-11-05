@@ -13,86 +13,77 @@ function toCommas(x) {
 }
 
 exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerName, botName, jam, tanggal, runtime, isCreator, isPremium, sender, limitCount, limit, gcount, glimit, balance, prefix) => {
-    return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
-
-*STATISTICS*
- • Upload : ${upload}
- • Downloads : ${download}
-
-*BOT INFO*
- • Creator : ${ownerName}
- • Bot Name : ${botName}
- • Time : ${jam}
- • Date : ${tanggal(new Date())}
- • Runtime : ${runtime(process.uptime())}
-
-*USER INFO*
- • Name : ${pushname !== undefined ? pushname : '-'}
- • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
- • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
- • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
- • Balance : ${toCommas(getBalance(sender, balance))}
- • Role : ${role}
+    return`*── 「 ${setting.botName} 」 ──*
+	
+${ucapanWaktu} kak *${pushname !== undefined ? pushname : 'No Detect Name'}*👋
+♕︎Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+♔︎Waktu : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
+꧁──────⚠︎⚠︎───────꧂
+☞︎︎︎Status : ${isOwner ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+☞︎︎︎Sisa Limit : ${isOwner ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
+☞︎︎︎Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
+☞︎︎︎Balance : $${toCommas(getBalance(sender, balance))}
  
- 
-*MAIN MENU*${petik}
- • ${prefix}menu
- • ${prefix}infobot
- • ${prefix}donate
- • ${prefix}dashboard
- • ${prefix}owner
- • ${prefix}cekdrive
- • ${prefix}cekbandwidth
- • ${prefix}cekpremium
- • ${prefix}listpremium
- • ${prefix}listsewa
- • ${prefix}speed
- • ${prefix}runtime
- • ${prefix}listbahasa${petik}
+_Ada Bug? Ketik ${prefix}report Bug mu_
+  ${readmore}
+*Main Menu*
+ 1➱ ${prefix}menu
+ 2➱ ${prefix}infobot
+ 3➱ ${prefix}donate
+ 4➱ ${prefix}dashboard
+ 5➱ ${prefix}owner
+ 6➱ ${prefix}cekdrive
+ 7➱ ${prefix}cekbandwidth
+ 8➱ ${prefix}cekpremium
+ 9➱ ${prefix}listpremium
+ 10➱ ${prefix}listsewa
+ 11➱ ${prefix}speed
+ 12➱ ${prefix}runtime
+ 13➱ ${prefix}listbahasa${petik}
 
-*CONVERTER/TOOLS*${petik} 
- • ${prefix}sticker
- • ${prefix}stickerwm
- • ${prefix}smeme
- • ${prefix}toimg
- • ${prefix}tovideo
- • ${prefix}tomp3
- • ${prefix}ttp
- • ${prefix}attp
- • ${prefix}emojimix
- • ${prefix}nuliskiri
- • ${prefix}nuliskanan
- • ${prefix}foliokiri
- • ${prefix}foliokanan
- • ${prefix}say
- • ${prefix}translate${petik}
+*Converter/Tools*
+ 14➱ ${prefix}sticker
+ 16➱ ${prefix}stickerwm
+ 17➱ ${prefix}smeme
+ 19➱ ${prefix}toimg
+ 20➱ ${prefix}tovideo
+ 21➱ ${prefix}tomp3
+ 22➱ ${prefix}ttp
+ 23➱ ${prefix}attp
+ 24➱ ${prefix}emojimix
+ 25➱ ${prefix}nuliskiri
+ 26➱ ${prefix}nuliskanan
+ 27➱ ${prefix}foliokiri
+ 28➱ ${prefix}foliokanan
+ 29➱ ${prefix}say
+ 30➱ ${prefix}translate${petik}
 
-*ANONYMOUS CHATS*${petik}
-• ${prefix}menfess nama|62xxx|pesan
- • ${prefix}anonymous
- • ${prefix}start
- • ${prefix}next
- • ${prefix}stop
- • ${prefix}sendprofile${petik}
+*Anonymous Chat*
+ 31➱ ${prefix}menfess nama|62xxx|pesan
+ 32➱ ${prefix}anonymous
+ 33➱ ${prefix}start
+ 34➱ ${prefix}next
+ 35➱ ${prefix}stop
+ 36➱ ${prefix}sendprofile${petik}
 
 *STORE MENU*${petik}
- • ${prefix}list
- • ${prefix}addlist
- • ${prefix}dellist
- • ${prefix}update
- • ${prefix}jeda
- • ${prefix}tambah
- • ${prefix}kurang
- • ${prefix}kali
- • ${prefix}bagi
- • ${prefix}delsetdone
- • ${prefix}changedone
- • ${prefix}setdone
- • ${prefix}delsetproses
- • ${prefix}changeproses
- • ${prefix}setproses
- • proses < reply chat >
- • done < reply chat >${petik}
+ 37➱ ${prefix}list
+ 38➱ ${prefix}addlist
+ 39➱ ${prefix}dellist
+ 40➱ ${prefix}update
+ 41➱ ${prefix}jeda
+ 42➱ ${prefix}tambah
+ 43➱ ${prefix}kurang
+ 44➱ ${prefix}kali
+ 45➱ ${prefix}bagi
+ 46➱ ${prefix}delsetdone
+ 47➱ ${prefix}changedone
+ 48➱ ${prefix}setdone
+ 49➱ ${prefix}delsetproses
+ 50➱ ${prefix}changeproses
+ 51➱ ${prefix}setproses
+ 52➱ proses < reply chat >
+ 53➱ ? done < reply chat >${petik}
 
 *RPG GAMES*${petik}
  • ${prefix}inventory
@@ -503,7 +494,8 @@ exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerN
  • ${prefix}metalb2
  • ${prefix}metalg
  • ${prefix}metalg${petik}
-`
+
+   Powered By Humanz😈`
 }
 
 exports.donate = (pushname, ownerNumber) => {
