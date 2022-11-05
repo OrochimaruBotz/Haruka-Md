@@ -39,7 +39,7 @@ _Ada Bug? Ketik ${prefix}report Bug mu_
  10➱ ${prefix}listsewa
  11➱ ${prefix}speed
  12➱ ${prefix}runtime
- 13➱ ${prefix}listbahasa${petik}
+ 13➱ ${prefix}listbahasa
 
 *Converter/Tools*
  14➱ ${prefix}sticker
@@ -56,7 +56,7 @@ _Ada Bug? Ketik ${prefix}report Bug mu_
  27➱ ${prefix}foliokiri
  28➱ ${prefix}foliokanan
  29➱ ${prefix}say
- 30➱ ${prefix}translate${petik}
+ 30➱ ${prefix}translate
 
 *Anonymous Chat*
  31➱ ${prefix}menfess nama|62xxx|pesan
@@ -64,9 +64,9 @@ _Ada Bug? Ketik ${prefix}report Bug mu_
  33➱ ${prefix}start
  34➱ ${prefix}next
  35➱ ${prefix}stop
- 36➱ ${prefix}sendprofile${petik}
+ 36➱ ${prefix}sendprofile
 
-*STORE MENU*${petik}
+*Store Menu*$
  37➱ ${prefix}list
  38➱ ${prefix}addlist
  39➱ ${prefix}dellist
@@ -83,179 +83,179 @@ _Ada Bug? Ketik ${prefix}report Bug mu_
  50➱ ${prefix}changeproses
  51➱ ${prefix}setproses
  52➱ proses < reply chat >
- 53➱ ? done < reply chat >${petik}
+ 53➱ ? done < reply chat >
 
-*RPG GAMES*${petik}
- • ${prefix}inventory
- • ${prefix}mining
- • ${prefix}buy 
- • ${prefix}sell
- • ${prefix}heal
- • ${prefix}hunt
- • ${prefix}adventure
- • ${prefix}luckyday
- • ${prefix}killslime
- • ${prefix}killgoblin
- • ${prefix}killdevil
- • ${prefix}killbehemoth
- • ${prefix}killdemon
- • ${prefix}killdemonking
- • ${prefix}joinrpg
- • ${prefix}sellikan
- • ${prefix}sellbesi
- • ${prefix}sellemas
- • ${prefix}jelajah
- • ${prefix}mancing
- • ${prefix}jualikan
- • ${prefix}jualcoal
- • ${prefix}lebur
- • ${prefix}jualstone
- • ${prefix}jualingot
- • ${prefix}jualkayu
- • ${prefix}nebang
- • ${prefix}goplanet
- • ${prefix}jualbahankimia${petik}
+*Rpg Menu*
+ 54➱ ${prefix}inventory
+ 55➱ ${prefix}mining
+ 56➱ ${prefix}buy 
+ 57➱ ${prefix}sell
+ 58➱ ${prefix}heal
+ 59➱ ${prefix}hunt
+ 60➱ ${prefix}adventure
+ 61➱ ${prefix}luckyday
+ 62➱ ${prefix}killslime
+ 63➱ ${prefix}killgoblin
+ 64➱ ${prefix}killdevil
+ 65➱ ${prefix}killbehemoth
+ 66➱ ${prefix}killdemon
+ 67➱ ${prefix}killdemonking
+ 68➱ ${prefix}joinrpg
+ 69➱ ${prefix}sellikan
+ 70➱ ${prefix}sellbesi
+ 71➱ ${prefix}sellemas
+ 72➱ ${prefix}jelajah
+ 73➱ ${prefix}mancing
+ 74➱ ${prefix}jualikan
+ 75➱ ${prefix}jualcoal
+ 76➱ ${prefix}lebur
+ 77➱ ${prefix}jualstone
+ 78➱ ${prefix}jualingot
+ 79➱ ${prefix}jualkayu
+ 80➱ ${prefix}nebang
+ 81➱ ${prefix}goplanet
+ 82➱ ${prefix}jualbahankimia
 
-*DOWNLOADS MENU*${petik}
- • ${prefix}play
- • ${prefix}ytmp3
- • ${prefix}ytmp4
- • ${prefix}instagram
- • ${prefix}igphoto
- • ${prefix}igvideo
- • ${prefix}igreels
- • ${prefix}tiktok
- • ${prefix}tiktoknowm
- • ${prefix}tiktokaudio
- • ${prefix}mediafire
- • ${prefix}gitclone${petik}
+*Downloader Menu*
+ 83➱ ${prefix}play
+ 84➱ ${prefix}ytmp3
+ 85➱ ${prefix}ytmp4
+ 86➱ ${prefix}instagram
+ 87➱ ${prefix}igphoto
+ 88➱ ${prefix}igvideo
+ 89➱ ${prefix}igreels
+ 90➱ ${prefix}tiktok
+ 91➱ ${prefix}tiktoknowm
+ 92➱ ${prefix}tiktokaudio
+ 93➱ ${prefix}mediafire
+ 94➱ ${prefix}gitclone
 
-*GROUP MENU*${petik}
- • ${prefix}afk
- • ${prefix}welcome
- • ${prefix}left
- • ${prefix}setopen
- • ${prefix}changesetopen
- • ${prefix}delsetopen
- • ${prefix}setclose
- • ${prefix}changesetclose
- • ${prefix}delsetclose
- • ${prefix}setwelcome
- • ${prefix}changewelcome
- • ${prefix}delsetwelcome
- • ${prefix}setleft
- • ${prefix}changeleft
- • ${prefix}delsetleft
- • ${prefix}linkgc
- • ${prefix}setppgc
- • ${prefix}setnamegc
- • ${prefix}setdesc
- • ${prefix}antilink
- • ${prefix}antiwame
- • ${prefix}open
- • ${prefix}close
- • ${prefix}add
- • ${prefix}kick
- • ${prefix}promote
- • ${prefix}demote
- • ${prefix}revoke
- • ${prefix}hidetag
- • ${prefix}checksewa${petik}
+*Group Menu*
+ 95➱ ${prefix}afk
+ 96➱ ${prefix}welcome
+ 97➱ ${prefix}left
+ 98➱ ${prefix}setopen
+ 99➱ ${prefix}changesetopen
+ 100➱ ${prefix}delsetopen
+ 101➱ ${prefix}setclose
+ 102➱ ${prefix}changesetclose
+ 103➱ ${prefix}delsetclose
+ 104➱ ${prefix}setwelcome
+ 105➱ ${prefix}changewelcome
+ 106➱ ${prefix}delsetwelcome
+ 107➱ ${prefix}setleft
+ 108➱ ${prefix}changeleft
+ 109➱ ${prefix}delsetleft
+ 110➱ ${prefix}linkgc
+ 111➱ ${prefix}setppgc
+ 112➱ ${prefix}setnamegc
+ 113➱ ${prefix}setdesc
+ 114➱ ${prefix}antilink
+ 115➱ ${prefix}antiwame
+ 116➱ ${prefix}open
+ 117➱ ${prefix}close
+ 118➱ ${prefix}add
+ 119➱ ${prefix}kick
+ 120➱ ${prefix}promote
+ 121➱ ${prefix}demote
+ 122➱ ${prefix}revoke
+ 123➱ ${prefix}hidetag
+ 124➱ ${prefix}checksewa
 
-*GAME MENU*${petik}
- • ${prefix}tictactoe
- • ${prefix}delttt
- • ${prefix}casino
- • ${prefix}delcasino${petik}
+*Game Menu*
+ 125➱ ${prefix}tictactoe
+ 126➱ ${prefix}delttt
+ 127➱ ${prefix}casino
+ 128➱ ${prefix}delcasino
 
-*SEARCH MENU*${petik}
- • ${prefix}lirik
- • ${prefix}grupwa
- • ${prefix}pinterest
- • ${prefix}ytsearch
- • ${prefix}searchbyimage${petik}
+*Search Menu*
+ 129➱ ${prefix}lirik
+ 130➱ ${prefix}grupwa
+ 131➱ ${prefix}pinterest
+ 132➱ ${prefix}ytsearch
+ 133➱ ${prefix}searchbyimage
 
-*RANDOM MENU*${petik}
- • ${prefix}cecan
- • ${prefix}cogan
- • ${prefix}waifu${petik}
+*Random Menu*
+ 134➱ ${prefix}cecan
+ 135➱ ${prefix}cogan
+ 136➱ ${prefix}waifu
 
 
-*BALANCE MENU*${petik}
- • ${prefix}topglobal
- • ${prefix}toplocal
- • ${prefix}buylimit
- • ${prefix}buyglimit
- • ${prefix}transfer
- • ${prefix}limit
- • ${prefix}balance${petik}
+*Balance Menu*
+ 137➱ ${prefix}topglobal
+ 138➱ ${prefix}toplocal
+ 139➱ ${prefix}buylimit
+ 140➱ 0${prefix}buyglimit
+ 141➱ ${prefix}transfer
+ 142➱ ${prefix}limit
+ 143➱ ${prefix}balance
 
-*STORAGE*${petik}
- • ${prefix}addstik
- • ${prefix}addvn
- • ${prefix}addimg
- • ${prefix}addvid
- • ${prefix}liststik
- • ${prefix}listvn
- • ${prefix}listimg
- • ${prefix}listvid${petik}
+*Storage Menu*
+ 144➱ ${prefix}addstik
+ 145➱ ${prefix}addvn
+ 146➱ ${prefix}addimg
+ 147➱ ${prefix}addvid
+ 148➱ ${prefix}liststik
+ 149➱ ${prefix}listvn
+ 150➱ ${prefix}listimg
+ 151➱ ${prefix}listvid
  
-*BAILEYS*${petik}
- • ${prefix}fitnah
- • ${prefix}nowa
- • ${prefix}getquoted
- • ${prefix}fakehidetag
- • ${prefix}react
- • ${prefix}setcmd
- • ${prefix}delcmd${petik}
+*Baileys*
+ 152➱ ${prefix}fitnah
+ 153➱ ${prefix}nowa
+ 154➱ ${prefix}getquoted
+ 155➱ ${prefix}fakehidetag
+ 156➱ ${prefix}react
+ 157➱ ${prefix}setcmd
+ 158➱ ${prefix}delcmd
 
-*OWNERS MENU*${petik}
- • ${prefix}autoread
- • ${prefix}autobio
- • ${prefix}autorespond
- • ${prefix}anticall
- • ${prefix}autoblok212
- • ${prefix}join
- • ${prefix}left
- • ${prefix}self
- • ${prefix}public
- • ${prefix}setppbot
- • ${prefix}broadcast
- • ${prefix}bcimg
- • ${prefix}bcstik
- • ${prefix}bcvn
- • ${prefix}bcvideo
- • ${prefix}bcsewa
- • ${prefix}addpremium
- • ${prefix}delpremium
- • ${prefix}addsewa
- • ${prefix}delsewa${petik}
+*Owner Menu*
+ 159➱ ${prefix}autoread
+ 160➱ ${prefix}autobio
+ 161➱ ${prefix}autorespond
+ 162➱ ${prefix}anticall
+ 163➱ ${prefix}autoblok212
+ 164➱ ${prefix}join
+ 165➱ ${prefix}left
+ 166➱ ${prefix}self
+ 167➱ ${prefix}public
+ 168➱ ${prefix}setppbot
+ 169➱ ${prefix}broadcast
+ 170➱ ${prefix}bcimg
+ 171➱ ${prefix}bcstik
+ 172➱ ${prefix}bcvn
+ 173➱ ${prefix}bcvideo
+ 174➱ ${prefix}bcsewa
+ 175➱ ${prefix}addpremium
+ 176➱ ${prefix}delpremium
+ 177➱ ${prefix}addsewa
+ 178➱ ${prefix}delsewa
 
-*ASUPAN MENU*${petik}
- • ${prefix}chika
- • ${prefix}delvira
- • ${prefix}ayu
- • ${prefix}bunga
- • ${prefix}aura
- • ${prefix}nisa
- • ${prefix}ziva
- • ${prefix}yana
- • ${prefix}viona
- • ${prefix}syania
- • ${prefix}riri
- • ${prefix}syifa
- • ${prefix}mama_gina
- • ${prefix}alcakenya
- • ${prefix}mangayutri
- • ${prefix}rikagusriani
- • ${prefix}asupan
- • ${prefix}bocil
- • ${prefix}geayubi
- • ${prefix}santuy
- • ${prefix}ukhty
- • ${prefix}syifa${petik}
+*Asupan Menu*
+ 179➱ ${prefix}chika
+ 180➱ ${prefix}delvira
+ 181➱ ${prefix}ayu
+ 182➱ ${prefix}bunga
+ 183➱ ${prefix}aura
+ 184➱ ${prefix}nisa
+ 185➱ ${prefix}ziva
+ 186➱ ${prefix}yana
+ 187➱ ${prefix}viona
+ 188➱ ${prefix}syania
+ 190➱ ${prefix}riri
+ 191➱ ${prefix}syifa
+ 192➱ ${prefix}mama_gina
+ 193➱ ${prefix}alcakenya
+ 194➱ ${prefix}mangayutri
+ 195➱ ${prefix}rikagusriani
+ 196➱ ${prefix}asupan
+ 197➱ ${prefix}bocil
+ 198➱ ${prefix}geayubi
+ 199➱ ${prefix}santuy
+ 200➱ ${prefix}ukhty
+ 201➱ ${prefix}syifa$
 
-*NSFW MENU*${petik}
+*Nsfw Menu*
  • ${prefix}baka
  • ${prefix}smug
  • ${prefix}neko_sfw
@@ -313,7 +313,7 @@ _Ada Bug? Ketik ${prefix}report Bug mu_
  • ${prefix}zettai${petik}
 
 
-*TEXTPRO MENU*${petik}
+*TextPro Menu*
  • ${prefix}halloween2
  • ${prefix}horror
  • ${prefix}game8bit
